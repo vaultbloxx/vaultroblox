@@ -1,0 +1,47 @@
+{
+  "name": "roblox",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "cross-env NODE_ENV=production node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mantine/carousel": "^7.14.3",
+    "@mantine/core": "^7.14.3",
+    "@mantine/hooks": "^7.14.3",
+    "axios": "^1.7.8",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "compression": "^1.8.0",
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "embla-carousel-react": "^8.5.1",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.16",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.4",
+    "react-icons": "^5.4.0"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.20",
+    "nodemon": "^3.1.9",
+    "postcss": "^8.4.49",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
