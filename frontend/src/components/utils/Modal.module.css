@@ -1,0 +1,28 @@
+.content {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+.separator {
+  background-color: #4b5563;
+}
+
+.stepIcon {
+  background-color: #4b5563;
+  overflow: hidden;
+  color: #f1f1f1;
+}
+
+.stepCompletedIcon {
+  background-color: #bb36fa;
+  color: #f1f1f1;
+}
+
+.stepLabel {
+  font-size: 15px;
+}
+
+.stepDescription {
+  font-size: 13px;
+}
